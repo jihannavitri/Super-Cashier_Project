@@ -1,3 +1,5 @@
+from transaction import Transaction
+
 # ID transaksi tr127 sebagai instance
 tr127 = Transaction()
 
