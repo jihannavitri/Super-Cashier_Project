@@ -3,7 +3,7 @@
 # Latar Belakang
 Dalam rangka mengembangkan bisnisnya, seorang pemilik supermarket ingin membuat sistem kasir self-service. Pada sistem ini, pelanggan dapat memasukkan daftar barang apa saja yang dibeli, jumlah dan harga per barang. Selain itu terdapat beberapa fitur lain yang dapat digunakan oleh pelanggan.
 
-# Feature Requirements
+# Persyaratan Fitur
 1. Pelanggan dapat membuat ID transaksi.
 2. Pelanggan dapat memasukkan nama barang, jumlah dan harga barang.
 3. Jika terdapat kesalahan input seperti salah input nama barang, ingin menambah/mengurangi atau mengganti harga barang, pelanggan dapat memperbaiki kesalahan tersebut.
@@ -19,7 +19,7 @@ Berikut adalah diagram alur dari sistem self-service Super-Cashier ini.
 ![flowchart](images/flowchart.jpeg)
 
 # Kode Program
-Berikut adalah kode untuk class program ini beserta inisialisasinya. Sistem akan menampung setiap data yang diinput berdasarkan jenisnya datanya, seperti nama item, jumlah item, dan harga per item. Setelah itu data tersebut akan dirangkup dalam variabel order dalam bentuk dictionary.
+Berikut adalah kode untuk class program ini beserta inisialisasinya. Sistem akan menampung setiap data yang diinput berdasarkan jenisnya datanya, seperti nama item, jumlah item, dan harga per item. Setelah itu data tersebut akan dirangkum dalam variabel order dalam bentuk dictionary.
 
 ![class](images/class.jpeg)
 
@@ -57,7 +57,7 @@ Kode dibawah ini berfungsi untuk mencetak daftar belanja beserta menampilkan tot
 
 ![tc](images/tc.jpeg)
 
-Misalkan pelanggan bernama Andi ingin membeli 3 pasta gigi seharga 15000, 1 sabun seharga 25000, dan 5 buku tulis.
+Misalkan pelanggan bernama Andi ingin membeli 3 pasta gigi seharga Rp15.000, 1 sabun seharga Rp25.000, dan 5 buku tulis yang harganya Rp6.000.
 
 ![tc1](images/tc1.jpeg)
 
@@ -65,7 +65,7 @@ Maka,
 
 ![tc1-1](images/tc1-1.jpeg)
 
-Ternyata terdapat beberapa informasi yang salah seperti salah ketik pada 'Pasts Gigi', kemudian Andi ingin menambah 1 sabun yang harganya 32000. Adapun Andi ingin mengganti produk buku tulis dengan produk yang harganyanya 7000.
+Ternyata terdapat beberapa informasi yang salah seperti salah ketik pada 'Pasts Gigi', selain itu Andi juga ingin mengganti sabun menjadi 2 pcs yang harganya adalah Rp32.000. Adapun Andi ingin mengganti produk buku tulis dengan produk yang harganyanya Rp7.000.
 
 ![tc2](images/tc2.jpeg)
 
@@ -73,7 +73,7 @@ Maka,
 
 ![tc2-2](images/tc2-2.jpeg)
 
-Setelah Andi cek lagi, dia belum membutuhkan Pasta gigi tapi ia membutuhka 3 buah lampu yang harganya 48000.
+Setelah Andi cek lagi, ternyata ia tidak membutuhkan Pasta gigi tapi ia ingat bahwa ia membutuhkan 3 buah lampu yang harganya Rp48.000. Sehingga ia menghapus pasta gigi dari daftar dan menambahkan lampu.
 
 ![tc3](images/tc3.jpeg)
 
@@ -83,3 +83,5 @@ Setelah dirasa cukup, akhirnya Andi membeli dan membayar barang belanjaanya seba
 
 
 # Kesimpulan
+- Sistem kasir self-service sederhana dapat dibuat dengan bahasa pemrograman Python.
+- Kode dan fitur dari sistem kasir ini dapat dikembangkan lagi agar menjadi lebih efisien.
